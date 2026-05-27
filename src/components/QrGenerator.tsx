@@ -40,7 +40,7 @@ export function QrGenerator() {
       const dataUrl = await QRCode.toDataURL(normalized, {
         width: 720,
         margin: 2,
-        color: { dark: "#1a1033", light: "#ffffff" },
+        color: { dark: "#3d1f2e", light: "#ffffff" },
         errorCorrectionLevel: "H",
       });
       setQrData(dataUrl);
